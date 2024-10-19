@@ -1,0 +1,71 @@
+body{
+    background-color: green;
+}
+
+#elsobekezdes{
+    color: white;
+    text-align: center;
+}
+
+p{
+    color: black;
+}
+
+#ananasz{
+    height: auto;
+    width: 10%;
+    float: left;
+}
+
+table{
+    /*float: none;*/
+    /*float: unset;*/
+    clear: both;
+    background-color: white;
+}
+
+table, td{
+    border: black solid 1px;
+    border-collapse: collapse;
+}
+
+#mosoly{
+    background-image: url("smiley2.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+ol li{
+    list-style-type: none;
+}
+
+ul>li{
+    list-style-image: url("smiley2.png");
+    list-style-position: inside;
+}
+
+#szoveg{
+    background-color: white;
+    border: grey 1px solid;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+#szoveg a{
+    text-decoration: none;
+}
+
+div p{
+    text-indent: 50px;
+    text-align: justify;
+}
+
+#kezdobetu{
+    /*font-variant: small-caps;*/
+    /*font-size: 130%;*/
+    /*text-transform: uppercase;*/
+    text-transform: capitalize;
+}
